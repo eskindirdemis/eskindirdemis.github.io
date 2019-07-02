@@ -1,0 +1,103 @@
+ body {text-align: center;     
+    background-color: black;     
+    padding: 300px;     
+    padding-top: 10px; 
+} 
+h1 {font-family: architects daughter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;     
+    background-color:black;     
+    color: white; 
+} 
+h2 {font-family: architects daughter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;     
+    color: white;     
+    background-color: black; 
+} 
+.svgClass {     
+    background-color:gray;     
+    float:left;     
+    width:70%;     
+    color:#fff;     
+    padding:10px;     
+    box-sizing:border-box; 
+} 
+polygon{fill:white; 
+    transition: 0.5s fill;
+ } 
+polygon:hover {fill: black;
+} 
+.lideta { stroke:yellow;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:yellow; 
+    fill-opacity: 50%;} 
+.kirkos{stroke:greenyellow;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:orange; 
+    fill-opacity: 10%;} 
+.nifassilk{stroke:goldenrod;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill: WHITE; 
+    fill-opacity: 50%;} 
+.akakikaliti {stroke:olive;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:red; 
+    fill-opacity: 10%;} 
+.yeka{stroke:lawngreen;
+    stroke-width: 2px;
+    stroke-dasharray: 3;
+    fill:red; 
+    fill-opacity: 10%;} 
+.bole{stroke:green;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:red; 
+    fill-opacity: 10%;} 
+.kolfekeraniyo{stroke: khaki;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill: red; 
+    fill-opacity: 50%;} 
+.addisketema{stroke:palegoldenrod;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:red;
+    fill-opacity: 50%;} 
+.arada{stroke:peru;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:red; 
+    fill-opacity: 50%;} 
+.gulele{stroke:yellow;
+    stroke-width: 2px; 
+    stroke-dasharray: 3; 
+    fill:red; 
+    fill-opacity: 50%;} 
+.removed{ display: none;} 
+button{
+    position: relative;     
+    color: white;     
+    font-size: 20px;     
+    background:gray;     
+    outline: none;     
+    left: 0%;     
+    width: 260px;     
+    text-align: left; } 
+button.hover{fill: whitesmoke; } 
+#sidebar{text-align: left;    
+    float:right;     
+    width:30%;     
+    background:none;     
+    color:#fff;     
+    padding:0px;     
+    box-sizing:border-box; }
+    .LINK{
+        display: inline-block;
+        color: white;
+        border: white 1px solid;
+        COLOR: WHITE
+        opacity: 0;
+        font-family: architects daughter;
+      
+      

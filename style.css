@@ -1,0 +1,93 @@
+
+
+body{ 
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: architects daughter;
+}
+
+
+p1{
+  font-family: architects daughter;
+  font-size: 20px;
+  color: white
+}
+
+
+
+#showcase {
+  height: 150px;
+}
+
+#showcase h1 {
+  font-size:50px;
+  position: relative;
+  animation: heading;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes heading{
+0%   {top: -100px}
+100% {top: 70px}
+}
+
+#content{
+  position: relative;
+  animation-name:content;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes content{
+0%   {left: -1000px}
+100% {left: 0px}
+}
+
+.btn{
+  display: inline-block;
+  color: white;
+  padding: 1rem 2rem;
+  border: white 1px solid;
+  margin-left: 680px;
+  opacity: 0;
+  animation-name: btn;
+  animation-duration: 5s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+.btn:hover {
+  transform: rotateY(180deg);
+}
+
+@keyframes btn{
+0%   {opacity: 0}
+100% {opacity: 1}
+}
+
+.image{
+width: 700px;
+}
+
+.image2{
+width: 700px;
+}
+
+.LINK{
+  display: inline-block;
+  color: white;
+  border: white 1px solid;
+  COLOR: white
+  opacity: 0;
+  font-family: architects daughter;
+
+
