@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 
 ::selection {
   color: #fcfcfc;
-  background: #b7c2c2; }
+  background: green; }
 
 #colorlib-page {
   position: relative;
@@ -215,15 +215,15 @@ h1, h2, h3, h4, h5, h6 {
       #colorlib-main-nav .form-group {
         width: 100%; } }
     #colorlib-main-nav .form-group input::-webkit-input-placeholder {
-      color: #333333; }
+      color: green; }
     #colorlib-main-nav .form-group input::-moz-input-placeholder {
-      color: #333333; }
+      color: green; }
     #colorlib-main-nav .form-group input::-ms-input-placeholder {
-      color: #333333; }
+      color: green; }
     #colorlib-main-nav .form-group input::-o-input-placeholder {
-      color: #333333; }
+      color: green; }
     #colorlib-main-nav .form-group input::input-placeholder {
-      color: #333333; }
+      color: green; }
   #colorlib-main-nav #search {
     font-size: 14px;
     width: 100%;
